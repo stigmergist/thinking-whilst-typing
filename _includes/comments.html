@@ -114,7 +114,7 @@
 
         commentsList.innerHTML = comments
             .sort((comment1, comment2) => {
-                return comment1.created_at < comment2.created_at ? 1 : -1;
+                return comment1.created_at < comment2.created_at ? -1 : 1;
             })
             .map(comment => {
                 // load the relativeTime plugin
