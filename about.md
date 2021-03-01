@@ -16,4 +16,4 @@ If you're not breaking eggs there's not even a possibility of an omelette, right
 
 eMail me : [john@stigmergist.com](mailto:john@stigmergist.com)
 
-DM me on Twitter [@stigmergist](https://twitter.com/messages/compose?recipient_id=170064729)
+DMs open on Twitter [@stigmergist](https://twitter.com/messages/compose?recipient_id=170064729)
