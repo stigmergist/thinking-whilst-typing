@@ -7,7 +7,55 @@
 .avatar {
         width: 2.5em;
         height: 2.5em;
-        overflow: hidden;
         border-radius: 50%;
         box-shadow: 0 0 3px #aaa;
     }
+
+.commenter {
+   overflow-x:scroll;
+  display: table;
+  border-spacing: 5px;
+  color: #93A1A1;
+}
+
+.commenter > * {
+  display:table-cell;
+     }
+
+.comment_box {
+	// layout
+	position: relative;
+
+	// looks
+	background-color: #fff;
+	padding: 0.25rem 1rem;
+	font-size: 1.25em;
+	border-radius: 1rem;
+  box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .4), 0 0.0625rem 0.125rem rgba(0, 0, 0, .3);
+}
+
+
+.comment_box::before {
+	// layout
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 100%;
+	left: 0.75em; // offset should move with padding of parent
+	border: .75rem solid transparent;
+	border-top: none;
+
+	// looks
+	border-bottom-color: #fff;
+	filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .2));
+}
+
+
+.comment-body {
+  min-height: 30px;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.25;
+}

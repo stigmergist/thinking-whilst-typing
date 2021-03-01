@@ -131,14 +131,16 @@
                       <img src="${user.avatar_url}" alt="" aria-hidden="true" class="avatar" />
                       <a
                           href="https://github.com/${user.login}"
-                          class="meta username"
+                          class="username"
                           >${user.login}</a
                       >
-                      <div class="meta date-posted">commented <time datetime="${comment.created_at}">${datePosted}</time></div>
-                      ${postedByAuthor ? '<span class="meta tag author-badge">Author</span>' : ''}
-                      ${edited ? `<span class="meta comment-edited">Edited</span>` : ''}
+                      <div class="date-posted">commented <time datetime="${comment.created_at}">${datePosted}</time></div>
                   </div>
-                  <div class="comment-body">${body}</div>
+                  <div class="comment_box">
+                      <div class="comment-body">
+                        ${body}
+                      </div>
+                  </div>
               </li>`;
             })
             .join('');
