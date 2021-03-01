@@ -13,6 +13,8 @@ If you'd like to <del>start an argument</del> suggest a topic for a blog entry, 
       <div class="entry">
         {{ post.excerpt }}
       </div>
+      <div class="date">Written on {{ post.date | date: "%B %e, %Y" }}
+  </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
