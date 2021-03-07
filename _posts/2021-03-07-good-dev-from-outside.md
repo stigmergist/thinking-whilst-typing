@@ -21,7 +21,7 @@ So the essence of the question is about assessing the risks emerging from work y
 
 Sadly, the "literature" suggest to technologists that this is all about building trust. By delivering "frequent incremental features" guided by "rapid feedback from business and customers" this develops trust with the business functions in the organisation. The mitigation of all these risks is "trust us, we know what we're doing". Whilst trust is always a component in understanding risk mitigation, the Russian proverb advises us to "trust, but verify" - trust alone is not sufficient. So how do you verify as a non-technical person ?
 
-The answer from delivery teams is often "verify our practices" - see the cards; participate in the ceremonies; prioritise the backlogs; use the tools; look at the walls; come to the demos; you need to learn and understand; come, drink the Kool-Aid. This, however, is cargo-cult thinking. if we do these things, the right outcomes occur. Indeed, in demanding the non-technical people must learn, understand, and appreciate, it is almost cult thinking. Whilst these practices might mitigate delivery risks, and some help build cohesive tech teams, they do not address all the other risks which are of equivalent, if not greater, existential threat.
+The answer from delivery teams is often "verify our practices" - see the cards; participate in the ceremonies; prioritise the backlogs; use the tools; look at the walls; come to the demos; you need to learn and understand; come, drink the Kool-Aid. This, however, is cargo-cult thinking. If we do these things, the right outcomes occur. Indeed, in demanding the non-technical people must learn, understand, and appreciate, it is almost cult thinking. Whilst these practices might mitigate delivery risks, and some help build cohesive tech teams, they do not address all the other risks which are of equivalent, if not greater, existential threat.
 
 I think there may be a premise that needs to be rejected at the heart of the original question: Current development delivery practices and tools do not deliver the entirety of what you should expect, as a non-technical person, from your technology team. This is also a rejection of the message that the fundamental purpose of technology teams is to deliver customer-driven priorities.
 
@@ -37,7 +37,7 @@ Where I'm going with this is that for the non-technical person to verify the ben
 
 ### What Needs To Be Verified
 
-Examples of verification conversations a non-technical person should be able to have answered with the technology team would include:
+Examples of verification conversations a non-technical person should be able to have with the technology team would include:
 
  - What are the primary value-streams of the business ?
  - What are the value-chains that support the stages of the value-streams ?
@@ -48,5 +48,7 @@ Examples of verification conversations a non-technical person should be able to 
  - How do we make sure when we change the systems we don't break the value-streams ?
  - What are the risks of this design and approach ? Are we all OK with them ?
  - How are we creating effective teams for each of our capabilities ?
+
+And verification conversations are two-way.
 
 Lots of specific jargon in here. Next post will define most of them.
