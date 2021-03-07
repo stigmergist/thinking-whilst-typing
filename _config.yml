@@ -87,3 +87,5 @@ exclude:
   - CNAME
 
 issues_repo: stigmergist/thinking-whilst-typing
+
+excerpt_separator: <!-- excerpt-end -->
